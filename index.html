@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Buat Kamu</title>
+  </head>
+
+  <style>
+    body {
+      background: linear-gradient(to top left, #7868e6, #9d99fd);
+    }
+    .flexCard {
+      flex: 0 0 auto;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeOut {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+
+    .fadeOut {
+      animation: fadeOut 1s ease-in-out 0s forwards;
+    }
+    .fadeAnimation {
+      animation: fadeInUp 1s ease-in-out 0s forwards;
+    }
+
+    .fadeAnimationSeconds {
+      animation: fadeInUp 3s ease-in-out 0s forwards;
+    }
+
+    .formInput {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1050;
+      overflow: hidden;
+      outline: 0;
+    }
+  </style>
+  <body>
+    <div class="w-full sm:max-w-xl mx-auto">
+      <div class="formInput">
+        <div class="px-4 w-full">
+          <div class="bg-white rounded-lg px-6 py-6">
+            <span class="text-gray-700 font-semibold">Masukan Nama kamu dulu y ❤</span>
+            <div class="flex flex-col">
+              <input
+                type="text"
+                required
+                class="inputName mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
+              />
+              <p class="text-muted text-red-400 text-xs pt-2 hidden">&nbsp;</p>
+              <button class="btn-submit mt-4 bg-blue-400 text-white text-lg font-semibold rounded-md py-1" type="submit"
+                >Save</button
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-4 pt-24 h-screen flex flex-col">
+        <div class="py-4">
+          <div class="nameWrapper opacity-0">
+            <h1 class="userName text-white text-3xl font-bold capitalize">&nbsp;</h1>
+            <p class="text-white text-lg font-bold">Satrio cuma mau bilang 🤣</p>
+          </div>
+
+          <div class="wallpaper bg-gray-50 rounded-lg mt-2 opacity-0">
+            <div
+              class="tenor-gif-embed mx-auto"
+              data-postid="23910536"
+              data-share-method="host"
+              data-aspect-ratio="1.30081"
+              data-width="50%"
+              ><a href="https://tenor.com/view/hug-hugs-gif-23910536">Hug Hugs GIF</a>from
+              <a href="https://tenor.com/search/hug-gifs">Hug GIFs</a></div
+            >
+          </div>
+        </div>
+
+        <div>
+          <h2 class="textTutor text-white font-semibold py-2 opacity-0">Geser ya ke kanan ya -> </h2>
+          <div class="wraperMessage flex flex-nowrap overflow-y-hidden overflow-x-scroll relative opacity-0">
+            <div class="bg-gray-50 h-[250px] rounded-lg px-6 py-4 my-4 flex items-center w-11/12 flexCard">
+              <h3 class="text-lg font-bold"
+                >w tahu lw lagi pusing stress hadapi masalah hidup dll, tapi w akan selalu dukung lw koq dengerin
+                masalah lw dll... 😘😘</h3
+              >
+            </div>
+            <div class="bg-gray-50 h-[250px] rounded-lg ml-2 px-6 py-4 my-4 w-11/12 items-center flex flexCard">
+              <h3 class="text-lg font-bold">percaya deh, hari buruk gk akan berlangsung lama yet. 😁</h3>
+            </div>
+            <div class="bg-gray-50 h-[250px] rounded-lg ml-2 px-6 py-4 my-4 w-11/12 flex items-center flexCard">
+              <h3 class="text-lg font-bold">Jangan sedih ya lw, semua bakal baik-baik saja koq. 😊</h3>
+            </div>
+            <div class="bg-gray-50 h-[250px] rounded-lg ml-2 px-6 py-4 my-4 w-11/12 flex items-center flexCard">
+              <h3 class="text-lg font-bold"
+                >w tau koq tuhan kasih cobain ini karena Dia tau lw pasti bisa hadapin nya, jadi tetap semangat, ya yet.
+                😊</h3
+              >
+            </div>
+            <div class="bg-gray-50 h-[250px] rounded-lg ml-2 px-6 py-4 my-4 w-11/12 flex items-center flexCard">
+              <h3 class="text-lg font-bold">semangat ya. ❤ ❤ ❤</h3>
+            </div>
+
+            <div class="bg-gray-50 h-[250px] rounded-lg ml-2 px-6 py-4 my-4 w-11/12 flex items-center flexCard">
+              <div class="flex flex-col">
+                <h3 class="text-lg font-bold">aku sayaang kamu</h3>
+                <span class="nameEnd text-lg font-bold capitalize">&nbsp;</span>
+              </div>
+
+              <div
+                class="tenor-gif-embed mx-auto"
+                data-postid="17747514"
+                data-share-method="host"
+                data-aspect-ratio="1.36752"
+                data-width="50%"
+                ><a href="https://tenor.com/view/cute-cuddling-cartoon-cat-kitty-gif-17747514">Cute Cuddling GIF</a>from
+                <a href="https://tenor.com/search/cute-gifs">Cute GIFs</a></div
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="py-8 mx-auto">
+          <button class="btnBack mt-4 bg-gray-800 text-white text-xl font-semibold rounded-md py-1 px-4 hidden"
+            >Back
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    <script>
+      const saveUsername = document.querySelector('.btn-submit');
+      const wallpapaer = document.querySelector('.wallpaper');
+      const step = document.querySelector('.textTutor');
+      const wraperMessage = document.querySelector('.wraperMessage');
+      const formInput = document.querySelector('.formInput');
+      const nameWrapper = document.querySelector('.nameWrapper');
+      const btnBack = document.querySelector('.btnBack');
+
+      let nameUser = document.querySelector('.userName');
+      let nameEnd = document.querySelector('.nameEnd');
+      let messageUserInput = document.querySelector('.text-muted');
+
+      const displayMessage = function (message) {
+        messageUserInput.classList.remove('hidden');
+        messageUserInput.textContent = message;
+      };
+
+      saveUsername.addEventListener('click', function () {
+        let inputUserName = document.querySelector('.inputName').value;
+
+        if (!inputUserName) {
+          displayMessage('nama lw masukin dulu bangsat !!!!');
+        } else {
+          formInput.classList.add('fadeOut');
+          formInput.classList.add('hidden');
+
+          btnBack.classList.remove('hidden');
+
+          nameWrapper.classList.remove('opacity-0');
+          nameWrapper.classList.add('fadeAnimation');
+
+          nameUser.textContent = `Hai ${inputUserName}`;
+          nameEnd.textContent = `${inputUserName} ❤`;
+
+          wallpapaer.classList.remove('opacity-0');
+          wallpapaer.classList.add('fadeAnimation');
+
+          step.classList.remove('opacity-0');
+          step.classList.add('fadeAnimationSeconds');
+
+          wraperMessage.classList.remove('opacity-0');
+          wraperMessage.classList.add('fadeAnimationSeconds');
+        }
+      });
+
+      btnBack.addEventListener('click', function () {
+        let inputUserName = (document.querySelector('.inputName').value = '');
+        formInput.classList.remove('fadeOut');
+        formInput.classList.remove('hidden');
+
+        btnBack.classList.add('hidden');
+
+        nameWrapper.classList.add('opacity-0');
+        nameWrapper.classList.remove('fadeAnimation');
+
+        wallpapaer.classList.add('opacity-0');
+        wallpapaer.classList.remove('fadeAnimation');
+
+        step.classList.add('opacity-0');
+        step.classList.remove('fadeAnimationSeconds');
+
+        wraperMessage.classList.add('opacity-0');
+        wraperMessage.classList.remove('fadeAnimationSeconds');
+      });
+    </script>
+  </body>
+</html>
